@@ -1,0 +1,113 @@
+.main{
+	height: 800px;
+	width: 1200px;
+	border: 2px solid black;
+	margin: auto;
+	display: flex;
+
+}
+
+.vertical__bloc{
+	height: 100%;
+	width: 30%;
+	display: flex;
+	position: relative; 
+}
+
+.picture_1, .picture_2, .picture_3{
+	height: 100%;
+	width: 33.4%;
+}
+
+.picture_1{
+	background-image: url(../img/1.jpg);
+}
+.picture_1 span{
+	margin-top: 150px;
+}
+
+.picture_2{
+	background-image: url(../img/2.jpg);
+}
+.picture_2 span{
+	margin-top: 50px;
+}
+.picture_3{
+	background-image: url(../img/3.jpg);
+}
+.picture_3 span{
+	margin-top: 400px;
+}
+
+.horizantal__block{
+	height: 100%;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+
+.picture_4, .picture_5, .picture_6,
+ .picture_7, .picture_8, .picture_9{
+	height: 17%;
+	width: 100%;
+}
+
+
+.picture_4{
+	background-image: url(../img/4.jpg);
+}
+.picture_5{
+	background-image: url(../img/5.jpg);
+}
+.picture_6{
+	background-image: url(../img/24.jpg);
+}
+.picture_7{
+	background-image: url(../img/31.jpg);
+
+}
+.picture_8{
+	background-image: url(../img/32.jpg);
+}
+.picture_9{
+	background-image: url(../img/33.jpg);
+}
+
+.vertical__bloc span{
+display:block;
+transform:rotate(-90deg);
+font-size:15px;
+color:#fff;
+}
+
+.horizantal__block span{
+	display: inline-block;
+	font-size:15px;
+    color:#fff;
+    width: 25%;
+}
+
+.picture_4 span{
+	margin-top: 30px;
+	margin-left: 150px; 
+}
+.picture_5 span{
+	margin-top: 30px;
+	margin-left: 400px; 
+}
+.picture_6 span{
+	margin-top: 90px;
+	margin-left: 420px; 
+}
+.picture_7 span{
+	margin-top: 100px;
+	margin-left: 70px; 
+}
+.picture_8 span{
+	margin-top: 30px;
+	margin-left: 300px; 
+}
+.picture_4 span{
+	margin-top: 70px;
+	margin-left: 70px; 
+}
